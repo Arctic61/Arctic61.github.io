@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+header{
+    display: flex;
+    background-color: white;
+    padding: 15px 0px;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.nothing{
+    display: flex;
+    flex: 4;
+}
+
+body{
+    margin: 0;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.menu{
+    display: flex;
+    flex: 1;
+}
+
+a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:darkgrey;
+}
+
+.div--img{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.character{
+   display: flex;
+   height: 600px;
+}
+
+.div--character{
+    width: 50%;
+}
+
+.characters{
+    margin-left: 500px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.names{
+    margin-left: 310px;
+}
+
+.GTA{
+    width: 1430px;
+    margin-left: 240px;
+}
