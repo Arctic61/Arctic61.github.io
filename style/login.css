@@ -7,7 +7,7 @@
 }
 body{
     background-color: #080710;
-    background-image: url(/images/City.png);
+    background-image: url(/images/city2.png);;
 }
 .background{
     width: 430px;
@@ -34,8 +34,8 @@ body{
 .shape:last-child{
     background: linear-gradient(
         to right,
-        #ff512f,
-        #f09819
+        #ff7b00,
+        #fc0000
     );
     right: -30px;
     bottom: -80px;
