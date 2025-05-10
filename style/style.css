@@ -1,92 +1,265 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-header{
-    display: flex;
-    background-color: white;
-    padding: 15px 0px;
-    background-image: url(../Images/gta\ banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+@media (min-width: 1200px) { 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Rubik', sans-serif;
+        background-color: #f9f9f9;
+        color: #1a1a1a;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      
+      header {
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 10;}
+      
+      .logo {
+        font-size: 24px;
+        font-weight: 700;
+        color: #111;
+      }
+      
+      .menu {
+        display: flex;
+        gap: 20px;
+      }
+      
+      .menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      
+      main {
+        max-width: 1100px;
+        margin: 50px auto;
+        padding: 0 20px;
+      }
+      
+      h1 {
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+      
+      .div--img {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+      }
+      
+      .div--img img {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 12px;
+      }
+      
+      .names {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 60px 0 20px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+      }
+      
+      .character {
+        display: flex;
+        gap: 30px;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 30px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+      .div--character {
+        flex: 1;
+      }
+      
+      .div--character p {
+        font-size: 18px;
+        max-width: 600px;
+      }
+      
+      .img--character {
+        max-width: 300px;
+        border-radius: 12px;
+      }
+      
+      .img--character:hover {
+        transform: scale(1.05);
+      }
+      
+      iframe {
+        width: 100%;
+        height: 500px;
+        border-radius: 12px;
+        margin-bottom: 50px;
+        border: none;
+      }
+      
+      footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 25px;
+        font-size: 22px;
+        font-family: 'Cal Sans', sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+      }
 }
 
-.logo{
-    display: flex;
-    flex: 1;
-    padding-left: 10px;
+
+@media (min-width: 320px) { 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Rubik', sans-serif;
+        background-color: #f9f9f9;
+        color: #1a1a1a;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      
+      header {
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 10;}
+      
+      .logo {
+        font-size: 24px;
+        font-weight: 700;
+        color: #111;
+      }
+      
+      .menu {
+        display: flex;
+        gap: 20px;
+      }
+      
+      .menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      
+      main {
+        max-width: 1100px;
+        margin: 50px auto;
+        padding: 0 20px;
+      }
+      
+      h1 {
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 12px;
+        margin-bottom: 30px;
+      }
+      
+      .div--img {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+      }
+      
+      .div--img img {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 12px;
+      }
+      
+      .names {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 60px 0 20px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+      }
+      
+      .character {
+        display: flex;
+        gap: 30px;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 30px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+      .div--character {
+        flex: 1;
+      }
+      
+      .div--character p {
+        font-size: 18px;
+        max-width: 600px;
+      }
+      
+      .img--character {
+        max-width: 300px;
+        border-radius: 12px;
+      }
+      
+      .img--character:hover {
+        transform: scale(1.05);
+      }
+      
+      iframe {
+        width: 100%;
+        height: 250px;
+        border-radius: 12px;
+        margin-bottom: 50px;
+        border: none;
+      }
+      
+      footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 25px;
+        font-size: 22px;
+        font-family: 'Cal Sans', sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+      }
 }
 
-.nothing{
-    display: flex;
-    flex: 4;
-}
 
-body{
-    margin: 0;
-    font-family: "Rubik", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-
-.menu{
-    display: flex;
-    flex: 1;
-}
-
-a{
-    margin: 0px 15px;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color:darkgrey;
-}
-
-.div--img{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.character{
-   display: flex;
-   height: 600px;
-}
-
-.div--character{
-    width: 50%;
-}
-
-.characters{
-    margin-left: 500px;
-}
-
-p{
-    font-size: 30px;
-}
-
-.names{
-    margin-left: 310px;
-}
-
-.GTA{
-    width: 1430px;
-    margin-left: 240px;
-}
-
-footer{
-    width: 100%;
-    height: 80px;
-    background-color: black;
-    background-image: url(../Images/gta\ banner\ -\ Copy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: "Cal Sans", sans-serif;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    -webkit-text-stroke: 1px black;
-}
